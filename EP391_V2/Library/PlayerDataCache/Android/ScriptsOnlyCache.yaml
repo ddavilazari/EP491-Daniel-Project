@@ -25,6 +25,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.CharacterControllerDriver
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
+    - UnityEngine.XR.Interaction.Toolkit.Inputs.XRInputModalityManager
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
@@ -97,6 +98,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature/TargetDevice
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.UnityEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -156,6 +158,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21642}
     - Class: 114
       Script: {instanceID: 22058}
+    - Class: 114
+      Script: {instanceID: 22494}
     - Class: 114
       Script: {instanceID: 22506}
     - Class: 114
