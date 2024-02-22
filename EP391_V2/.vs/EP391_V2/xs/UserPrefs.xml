@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{CEA85B20-9E8C-62D5-19BE-2494A1C66346}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HandAnimatorController.cs">
+    <Files>
+      <File FileName="Assets/HandAnimatorController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f29eaf9d-f16c-413c-aab2-158ca7323e67" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
