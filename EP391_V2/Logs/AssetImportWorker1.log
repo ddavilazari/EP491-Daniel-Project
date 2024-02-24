@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49577
+49942
 Successfully changed project path to: /Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2
 /Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/danieldavila/Documents/EP491-Daniel
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4644800000] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 1360190319 [EditorId] 1360190319 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4737615360] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 2313524584 [EditorId] 2313524584 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4644800000] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 1360190319 [EditorId] 1360190319 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4737615360] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 2313524584 [EditorId] 2313524584 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 21.89 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 9.18 ms.
+Refreshing native plugins compatible for Editor in 25.49 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 9.44 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Assets
@@ -77,47 +77,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56191
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56434
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006953 seconds.
-- Loaded All Assemblies, in  0.704 seconds
+Registered in 0.005885 seconds.
+- Loaded All Assemblies, in  0.741 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 131 ms
+Android Extension - Scanning For ADB Devices 143 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.683 seconds
-Domain Reload Profiling: 1387ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (309ms)
-		LoadAssemblies (207ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (300ms)
-				TypeCache.ScanAssembly (272ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (293ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (683ms)
+	FinalizeReload (729ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
+		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (315ms)
+			InitializePlatformSupportModulesInManaged (351ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,8 +125,8 @@ Domain Reload Profiling: 1387ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.249 seconds
-Refreshing native plugins compatible for Editor in 10.34 ms, found 9 plugins.
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 11.48 ms, found 9 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -143,48 +143,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.123 seconds
-Domain Reload Profiling: 2374ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  1.032 seconds
+Domain Reload Profiling: 2208ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (906ms)
-		LoadAssemblies (527ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (797ms)
+		LoadAssemblies (503ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (464ms)
-			TypeCache.Refresh (402ms)
-				TypeCache.ScanAssembly (361ms)
-			ScanForSourceGeneratedMonoScriptInfo (42ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1124ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (295ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1032ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (798ms)
+		SetupLoadedEditorAssemblies (713ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (581ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 7.34 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.33 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.85 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
 Unloading 4393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (70.9 KB). Loaded Objects now: 4864.
-Memory consumption went from 272.3 MB to 272.2 MB.
-Total: 6.623247 ms (FindLiveObjects: 0.552315 ms CreateObjectMapping: 0.366418 ms MarkObjects: 5.439010 ms  DeleteObjects: 0.263781 ms)
+Unloading 77 unused Assets / (70.9 KB). Loaded Objects now: 4865.
+Memory consumption went from 273.0 MB to 272.9 MB.
+Total: 5.144625 ms (FindLiveObjects: 0.391272 ms CreateObjectMapping: 0.179806 ms MarkObjects: 4.338873 ms  DeleteObjects: 0.233364 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,53 +201,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3247.961395 seconds.
-  path: Assets/Field Assets/Assets_FenceChained/prefabs
-  artifactKey: Guid(6ad54e708e4333d41a9ca5d0f8c1a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Field Assets/Assets_FenceChained/prefabs using Guid(6ad54e708e4333d41a9ca5d0f8c1a190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f344ae025b9e62f002f47ae2a7868b') in 0.002375 seconds
+  Time since last request: 5000.066079 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(26dcd4e69b571498eae2161e1c208b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(26dcd4e69b571498eae2161e1c208b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf92b4f2d6accc7a1dabd2f68bca38') in 0.002201 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.828220 seconds.
-  path: Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab
-  artifactKey: Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_barbwire-2.prefab using Guid(fb4bde335e6d1754f8cd33e1b30a65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'bd4f6224b25a6793ffffac4d48334b1a') in 0.526826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_group-1.prefab
-  artifactKey: Guid(2ebdc32c603c0f74a8df3ff23c55e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_group-1.prefab using Guid(2ebdc32c603c0f74a8df3ff23c55e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '960c23cc2cf5b4adaa2ee229d318d13f') in 0.081803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_single.prefab
-  artifactKey: Guid(ecc15abaa2d4963428bdf7fc9eb09410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_single.prefab using Guid(ecc15abaa2d4963428bdf7fc9eb09410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '84c9d190fa2b025135f1dff3e4794a46') in 0.075724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab
-  artifactKey: Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Field Assets/Assets_FenceChained/prefabs/chainlink_group-2.prefab using Guid(df9c3c7aaeeef154bb7184ad6f179ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '31d084617071a7c43d99a4659f7b3efd') in 0.062839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
