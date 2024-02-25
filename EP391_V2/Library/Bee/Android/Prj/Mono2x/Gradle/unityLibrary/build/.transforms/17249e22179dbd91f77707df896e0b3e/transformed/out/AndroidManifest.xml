@@ -8,6 +8,8 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="32" />
 
+    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:glEsVersion="0x00030000" />

@@ -10,169 +10,173 @@
 9        android:targetSdkVersion="32" />
 9-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
-11-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
+11    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+11-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-77
+11-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:24-74
 12
-13    <uses-feature android:glEsVersion="0x00030000" />
-13-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-52
-13-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:17-49
-14    <uses-feature
-14-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-91
-15        android:name="android.hardware.vulkan.version"
-15-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-63
-16        android:required="false" />
-16-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:64-88
-17    <uses-feature
-17-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-88
-18        android:name="android.hardware.touchscreen"
-18-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-60
-19        android:required="false" />
-19-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:61-85
-20    <uses-feature
-20-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-99
-21        android:name="android.hardware.touchscreen.multitouch"
-21-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-71
-22        android:required="false" />
-22-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:72-96
-23    <uses-feature
-23-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-108
-24        android:name="android.hardware.touchscreen.multitouch.distinct"
-24-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-80
-25        android:required="false" />
-25-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:81-105
-26    <uses-feature
-26-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:3-111
-27        android:name="android.hardware.vr.headtracking"
-27-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:17-64
-28        android:required="true"
-28-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:65-88
-29        android:version="1" />
-29-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:89-108
-30
-31    <application android:extractNativeLibs="true" >
-31-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-31:17
-31-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:16-48
-32        <meta-data
-32-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:5-69
-33            android:name="unity.splash-mode"
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-65
+13-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:20-62
+14
+15    <uses-feature android:glEsVersion="0x00030000" />
+15-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-52
+15-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:17-49
+16    <uses-feature
+16-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-91
+17        android:name="android.hardware.vulkan.version"
+17-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-63
+18        android:required="false" />
+18-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:64-88
+19    <uses-feature
+19-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-60
+21        android:required="false" />
+21-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:61-85
+22    <uses-feature
+22-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-71
+24        android:required="false" />
+24-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:72-96
+25    <uses-feature
+25-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:17-80
+27        android:required="false" />
+27-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:81-105
+28    <uses-feature
+28-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:3-111
+29        android:name="android.hardware.vr.headtracking"
+29-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:17-64
+30        android:required="true"
+30-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:65-88
+31        android:version="1" />
+31-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:89-108
+32
+33    <application android:extractNativeLibs="true" >
+33-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:3-32:17
 33-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:16-48
-34            android:value="0" />
-34-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:49-66
-35        <meta-data
-35-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-74
-36            android:name="unity.splash-enable"
-36-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-50
-37            android:value="True" />
-37-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:51-71
-38        <meta-data
-38-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-78
-39            android:name="unity.launch-fullscreen"
-39-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-54
-40            android:value="True" />
-40-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:55-75
-41        <meta-data
-41-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-84
-42            android:name="unity.allow-resizable-window"
-42-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-59
-43            android:value="False" />
-43-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:60-81
-44        <meta-data
-44-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-81
-45            android:name="notch.config"
-45-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-43
-46            android:value="portrait|landscape" />
-46-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:44-78
-47        <meta-data
-47-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
-48            android:name="unity.auto-report-fully-drawn"
-48-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-60
-49            android:value="true" />
-49-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:61-81
-50
-51        <activity
-51-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-25:16
-52            android:name="com.unity3d.player.UnityPlayerActivity"
-52-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:15-68
-53            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
-53-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:204-305
-54            android:exported="true"
-54-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:377-400
-55            android:hardwareAccelerated="false"
-55-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:341-376
-56            android:launchMode="singleTask"
-56-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:172-203
-57            android:resizeableActivity="false"
-57-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:306-340
-58            android:screenOrientation="landscape"
-58-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:134-171
-59            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-59-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:69-133
-60            <intent-filter>
-60-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:7-21:23
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:9-69
-61-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:19-66
-62
-63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:9-61
-63-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:17-58
+34        <meta-data
+34-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-69
+35            android:name="unity.splash-mode"
+35-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-48
+36            android:value="0" />
+36-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:49-66
+37        <meta-data
+37-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-74
+38            android:name="unity.splash-enable"
+38-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-50
+39            android:value="True" />
+39-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:51-71
+40        <meta-data
+40-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-78
+41            android:name="unity.launch-fullscreen"
+41-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-54
+42            android:value="True" />
+42-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:55-75
+43        <meta-data
+43-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-84
+44            android:name="unity.allow-resizable-window"
+44-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-59
+45            android:value="False" />
+45-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:60-81
+46        <meta-data
+46-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-81
+47            android:name="notch.config"
+47-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-43
+48            android:value="portrait|landscape" />
+48-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:44-78
+49        <meta-data
+49-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-84
+50            android:name="unity.auto-report-fully-drawn"
+50-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-60
+51            android:value="true" />
+51-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:61-81
+52
+53        <activity
+53-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-26:16
+54            android:name="com.unity3d.player.UnityPlayerActivity"
+54-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:15-68
+55            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+55-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:204-305
+56            android:exported="true"
+56-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:377-400
+57            android:hardwareAccelerated="false"
+57-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:341-376
+58            android:launchMode="singleTask"
+58-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:172-203
+59            android:resizeableActivity="false"
+59-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:306-340
+60            android:screenOrientation="landscape"
+60-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:134-171
+61            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+61-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:69-133
+62            <intent-filter>
+62-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:7-22:23
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:9-69
+63-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:19-66
 64
-65                <category android:name="com.oculus.intent.category.VR" />
-65-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-66
-65-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:19-63
-66            </intent-filter>
-67
-68            <meta-data
-68-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:7-82
-69                android:name="unityplayer.UnityActivity"
-69-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:18-58
-70                android:value="true" />
-70-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:59-79
-71            <meta-data
-71-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:7-70
-72                android:name="notch_support"
-72-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:18-46
-73                android:value="true" />
-73-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:47-67
-74            <meta-data
-74-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:7-81
-75                android:name="com.oculus.vr.focusaware"
-75-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:18-57
-76                android:value="true" />
-76-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:58-78
-77        </activity>
-78
-79        <meta-data
-79-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:5-97
-80            android:name="com.samsung.android.vr.application.mode"
-80-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:16-70
-81            android:value="vr_only" />
-81-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:71-94
-82        <meta-data
-82-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:5-91
-83            android:name="com.unity.xr.oculus.LowOverheadMode"
-83-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:16-66
-84            android:value="false" />
-84-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:67-88
-85        <meta-data
-85-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:5-88
-86            android:name="com.unity.xr.oculus.LateLatching"
-86-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:16-63
-87            android:value="false" />
-87-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:64-85
-88        <meta-data
-88-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:5-93
-89            android:name="com.unity.xr.oculus.LateLatchingDebug"
-89-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:16-68
-90            android:value="false" />
-90-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:69-90
-91        <meta-data
-91-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:5-84
-92            android:name="com.oculus.supportedDevices"
-92-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:16-58
-93            android:value="quest2" />
-93-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:59-81
-94    </application>
-95
-96</manifest>
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:9-61
+65-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-58
+66
+67                <category android:name="com.oculus.intent.category.VR" />
+67-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:9-66
+67-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:19-63
+68            </intent-filter>
+69
+70            <meta-data
+70-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:7-82
+71                android:name="unityplayer.UnityActivity"
+71-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:18-58
+72                android:value="true" />
+72-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:59-79
+73            <meta-data
+73-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:7-70
+74                android:name="notch_support"
+74-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:18-46
+75                android:value="true" />
+75-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:47-67
+76            <meta-data
+76-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:7-81
+77                android:name="com.oculus.vr.focusaware"
+77-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:18-57
+78                android:value="true" />
+78-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:58-78
+79        </activity>
+80
+81        <meta-data
+81-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:5-97
+82            android:name="com.samsung.android.vr.application.mode"
+82-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:16-70
+83            android:value="vr_only" />
+83-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:71-94
+84        <meta-data
+84-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:5-91
+85            android:name="com.unity.xr.oculus.LowOverheadMode"
+85-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:16-66
+86            android:value="false" />
+86-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:67-88
+87        <meta-data
+87-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:5-88
+88            android:name="com.unity.xr.oculus.LateLatching"
+88-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:16-63
+89            android:value="false" />
+89-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:64-85
+90        <meta-data
+90-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:5-93
+91            android:name="com.unity.xr.oculus.LateLatchingDebug"
+91-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:16-68
+92            android:value="false" />
+92-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:69-90
+93        <meta-data
+93-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:5-84
+94            android:name="com.oculus.supportedDevices"
+94-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:16-58
+95            android:value="quest2" />
+95-->/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:59-81
+96    </application>
+97
+98</manifest>
