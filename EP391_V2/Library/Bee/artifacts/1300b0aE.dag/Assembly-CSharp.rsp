@@ -382,7 +382,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Script/HandAnimatorController.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
