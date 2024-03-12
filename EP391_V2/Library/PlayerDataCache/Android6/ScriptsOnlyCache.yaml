@@ -3,8 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BasicRigidBodyPush
     - HandAnimatorController
+    - IntermittentSounds
     - MobileDisableAutoSwitchControls
-    - Readme
     - StarterAssets.StarterAssetsInputs
     - StarterAssets.ThirdPersonController
     - StarterAssets.UICanvasControllerInput
@@ -97,8 +97,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -311,6 +313,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 24664}
     - Class: 114
       Script: {instanceID: 25102}
+    - Class: 114
+      Script: {instanceID: 30258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2206,6 +2210,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d269752399ab5933005a3267bab3a894
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: IntermittentSounds
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
