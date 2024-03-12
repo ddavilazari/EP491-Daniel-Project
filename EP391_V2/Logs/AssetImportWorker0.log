@@ -903,3 +903,49 @@ Start importing Assets/Field Assets/Industrial Props/Prefabs/RoadDivider.prefab 
  -> (artifact id: '0f5b4f44ffc0bad7d9ea43a3ee96f97c') in 0.022429 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 189.395531 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/CinderBlock.prefab
+  artifactKey: Guid(380c131da968d424ab4902f967bc23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/CinderBlock.prefab using Guid(380c131da968d424ab4902f967bc23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3f06d808d6b460d7f7a9902926a8aef5') in 0.023237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/WorkLight.prefab
+  artifactKey: Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/WorkLight.prefab using Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dea36230adb239b085e75a63841cb00') in 0.034752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/Scaffolding.prefab
+  artifactKey: Guid(4707581494a4031438fbad227829f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/Scaffolding.prefab using Guid(4707581494a4031438fbad227829f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3d32105253946b178184512210ea99a6') in 0.093970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/OxygenTank.prefab
+  artifactKey: Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/OxygenTank.prefab using Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '2a0370cbf47508f4d3b3db43105d3d0c') in 0.091868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/WaterTank.prefab
+  artifactKey: Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/WaterTank.prefab using Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'ca965b23f5faa6fb8d91518b4ade19e8') in 0.067167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162

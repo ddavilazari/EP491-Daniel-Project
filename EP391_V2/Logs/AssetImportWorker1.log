@@ -818,3 +818,56 @@ WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing te
  -> (artifact id: '28b09f38d317feb25815e2b0d502c6d8') in 0.041249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 189.381851 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/ConstructionCone.prefab
+  artifactKey: Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/ConstructionCone.prefab using Guid(c0a97f89f66be1840abe0471300c737f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22cbc41e5ab502445906edcad3d66a3') in 0.022940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/LightPole.prefab
+  artifactKey: Guid(aafe9fdf381df774fb44c73c25a40784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/LightPole.prefab using Guid(aafe9fdf381df774fb44c73c25a40784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '632b224162251402eed215919cada043') in 0.048501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.012220 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/pallet.prefab
+  artifactKey: Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/pallet.prefab using Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '86e369a59d43915bb7aad68db5bafc69') in 0.062706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/Ibeam.prefab
+  artifactKey: Guid(56cb3482401e6f44791afe77eb0c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/Ibeam.prefab using Guid(56cb3482401e6f44791afe77eb0c33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a887265ea1e1386d675634cc70957cc4') in 0.034198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.020350 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/Fence.prefab
+  artifactKey: Guid(b39d34f9ee12e3d4f8a61720146b7939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/Fence.prefab using Guid(b39d34f9ee12e3d4f8a61720146b7939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c3bb20638481089f28803810805d5ae5') in 0.046530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Field Assets/Industrial Props/Prefabs/RoadDivider.prefab
+  artifactKey: Guid(e68faaa5192b504429a181aad36d18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Field Assets/Industrial Props/Prefabs/RoadDivider.prefab using Guid(e68faaa5192b504429a181aad36d18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '3cb0e18c9c1d4894c4a5d9b5414f6f51') in 0.019224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
