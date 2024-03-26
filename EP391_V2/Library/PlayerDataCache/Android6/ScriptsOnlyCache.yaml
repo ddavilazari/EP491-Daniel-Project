@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - IntermittentSounds
     - MobileDisableAutoSwitchControls
     - PlayAudioOnTriggerEnter
-    - Readme
     - StarterAssets.StarterAssetsInputs
     - StarterAssets.ThirdPersonController
     - StarterAssets.UICanvasControllerInput
@@ -157,6 +156,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Unity.XR.Interaction.Toolkit
+    fullTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
+    methodName: set_aimTarget
+  - assembly: Unity.XR.Interaction.Toolkit
+    fullTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
+    methodName: set_aimTarget
   - assembly: Assembly-CSharp
     fullTypeName: StarterAssets.UICanvasControllerInput
     methodName: VirtualSprintInput
@@ -169,12 +174,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StarterAssets.UICanvasControllerInput
     methodName: VirtualMoveInput
-  - assembly: Unity.XR.Interaction.Toolkit
-    fullTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
-    methodName: set_aimTarget
-  - assembly: Unity.XR.Interaction.Toolkit
-    fullTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer
-    methodName: set_aimTarget
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
