@@ -1,23 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
-public class GameTimer : MonoBehaviour
+public class Timer : MonoBehaviour
 {
-    public float timeLimit = 120f; // Time limit in seconds
-    private float timer = 0f;
-    private bool isGameOver = false;
+    public float timeRemaining = 120;
+        public bool timeIsRunning = true;
+    public TMP_Text timeText;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        timeIsRunning = true; 
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        if (!isGameOver)
+        if (timeIsRunning)
         {
-            timer += Time.deltaTime;
-            if (timer >= timeLimit)
+            if (timeRemaining >= 0)
             {
-                Debug.Log("Time's up!");
-                // Stop the game when the time limit is reached
-                Time.timeScale = 0f;
-                isGameOver = true;
+                timeRemaining += Time.deltaTime;
+                DisplayTime(timeRemaining);
             }
         }
     }
+    void DisplayTime(float timeToDisplay)
+    {
+        timeToDisplay +=1;
+        float minutes = Mathf.FloorToInt(timeToDisplay / 60);
+        float seconds = Mathf.FloorToInt(timeToDisplay - minutes * 60);
+        timeText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+     } 
 }

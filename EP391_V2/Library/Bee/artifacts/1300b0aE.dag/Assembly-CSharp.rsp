@@ -385,6 +385,7 @@
 "Assets/Script/HandAnimatorController.cs"
 "Assets/Script/IntermittentSounds.cs"
 "Assets/Script/LocalWaves.cs"
+"Assets/Script/NewBehaviourScript.cs"
 "Assets/Script/Timer.cs"
 "Assets/Script/triggersound.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
