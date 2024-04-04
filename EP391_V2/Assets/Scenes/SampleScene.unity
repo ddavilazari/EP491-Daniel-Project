@@ -5213,6 +5213,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1053822924}
   - component: {fileID: 1053822926}
+  - component: {fileID: 1053822929}
+  - component: {fileID: 1053822928}
   - component: {fileID: 1053822927}
   m_Layer: 0
   m_Name: Cars
@@ -5368,20 +5370,133 @@ MonoBehaviour:
   m_GameObject: {fileID: 1053822923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58c5a717cd2c349c88720dffffe1fee2, type: 3}
+  m_Script: {fileID: 11500000, guid: 59c3684b22f00604a97bb68037fcf4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Speaker01: {fileID: 1053822926}
-  minVol: 0.121
-  maxVol: 0.336
-  SourceVol: 0.765
-  minTime: 2.2
-  maxTime: 6.4
-  distRand: 0
-  maxDist: 0
-  spatialBlend: 0
-  pcmData: []
-  enablePlayMode: 0
+  directBinaural: 1
+  interpolation: 0
+  perspectiveCorrection: 0
+  distanceAttenuation: 0
+  distanceAttenuationInput: 0
+  distanceAttenuationValue: 1
+  airAbsorption: 0
+  airAbsorptionInput: 0
+  airAbsorptionLow: 1
+  airAbsorptionMid: 1
+  airAbsorptionHigh: 1
+  directivity: 0
+  directivityInput: 0
+  dipoleWeight: 0
+  dipolePower: 0
+  directivityValue: 1
+  occlusion: 0
+  occlusionInput: 0
+  occlusionType: 0
+  occlusionRadius: 1
+  occlusionSamples: 16
+  occlusionValue: 1
+  transmission: 0
+  transmissionType: 0
+  transmissionInput: 0
+  transmissionLow: 1
+  transmissionMid: 1
+  transmissionHigh: 1
+  maxTransmissionSurfaces: 1
+  directMixLevel: 1
+  reflections: 0
+  reflectionsType: 0
+  useDistanceCurveForReflections: 0
+  currentBakedSource: {fileID: 0}
+  reverbTimeLow: 0
+  reverbTimeMid: 0
+  reverbTimeHigh: 0
+  hybridReverbEQLow: 1
+  hybridReverbEQMid: 1
+  hybridReverbEQHigh: 1
+  hybridReverbDelay: 0
+  applyHRTFToReflections: 0
+  reflectionsMixLevel: 1
+  pathing: 0
+  pathingProbeBatch: {fileID: 0}
+  pathValidation: 1
+  findAlternatePaths: 1
+  pathingEQ:
+  - 1
+  - 1
+  - 1
+  pathingSH:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  applyHRTFToPathing: 0
+  pathingMixLevel: 1
+--- !u!114 &1053822928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053822923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5c6e3f5f9fb4d6eaef4fd906d07550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 1e42a0392b5794255b13dbc0aa1732ce, type: 3}
+  - {fileID: 8300000, guid: eedc3c35e4b384fbc8945dda78251550, type: 3}
+  _randomizeAmplitude: 1
+  _minAmplitude: 0.598
+  _maxAmplitude: 1
+  _randomizePitch: 0
+  _minPitch: 0.8
+  _maxPitch: 1.2
+  _randomizeCutoff: 0
+  _minCutoff: 8000
+  _maxCutoff: 20000
+  _maxTimeGapBetweenClips: 4.09
+  _playerTransform: {fileID: 0}
+  _randomizePosition: 0
+  _minRadius: 3
+  _maxRadius: 30
+--- !u!169 &1053822929
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053822923}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22727273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1060343791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 97686e80dd94cb04c9b02de1bf64121e, type: 3}
@@ -6235,8 +6350,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1209722771}
   - component: {fileID: 1209722772}
-  - component: {fileID: 1209722773}
   - component: {fileID: 1209722774}
+  - component: {fileID: 1209722776}
+  - component: {fileID: 1209722775}
   m_Layer: 0
   m_Name: Bark
   m_TagString: Untagged
@@ -6382,29 +6498,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1209722773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209722770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58c5a717cd2c349c88720dffffe1fee2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Speaker01: {fileID: 1209722772}
-  minVol: 0.067
-  maxVol: 0.376
-  SourceVol: 0
-  minTime: 3.3
-  maxTime: 10.4
-  distRand: 0
-  maxDist: 0
-  spatialBlend: 0.23
-  pcmData: []
-  enablePlayMode: 0
 --- !u!114 &1209722774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6487,6 +6580,60 @@ MonoBehaviour:
   - 0
   applyHRTFToPathing: 0
   pathingMixLevel: 1
+--- !u!114 &1209722775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209722770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5c6e3f5f9fb4d6eaef4fd906d07550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 1e02caf72937d4d0381e5ae3d55faf85, type: 3}
+  - {fileID: 8300000, guid: 1e02caf72937d4d0381e5ae3d55faf85, type: 3}
+  _randomizeAmplitude: 1
+  _minAmplitude: 0.518
+  _maxAmplitude: 0.939
+  _randomizePitch: 0
+  _minPitch: 0.5
+  _maxPitch: 1.2
+  _randomizeCutoff: 0
+  _minCutoff: 8000
+  _maxCutoff: 20000
+  _maxTimeGapBetweenClips: 3.23
+  _playerTransform: {fileID: 0}
+  _randomizePosition: 0
+  _minRadius: 3
+  _maxRadius: 30
+--- !u!169 &1209722776
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209722770}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22727273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1214620640
 GameObject:
   m_ObjectHideFlags: 0
