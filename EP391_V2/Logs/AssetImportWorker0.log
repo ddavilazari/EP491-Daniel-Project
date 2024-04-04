@@ -1,0 +1,634 @@
+Unity Editor version:    2022.3.9f1 (ea401c316338)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49276
+Successfully changed project path to: /Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2
+/Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4843910656] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 1504681876 [EditorId] 1504681876 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4843910656] Host "[IP] 192.168.0.176 [Port] 0 [Flags] 2 [Guid] 1504681876 [EditorId] 1504681876 [Version] 1048832 [Id] OSXEditor(0,Daniels-MBP.cable.rcn.com) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 38.45 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 10.90 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/danieldavila/Documents/EP491-Daniel-Project/EP391_V2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel Iris Pro Graphics (low power)
+Metal devices available: 2
+0: AMD Radeon R9 M370X (high power)
+1: Intel Iris Pro Graphics (low power)
+Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56255
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002401 seconds.
+- Loaded All Assemblies, in  0.731 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 150 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1495ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (316ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (373ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.378 seconds
+Refreshing native plugins compatible for Editor in 13.88 ms, found 12 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.300 seconds
+Domain Reload Profiling: 2679ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (952ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (489ms)
+			TypeCache.Refresh (425ms)
+				TypeCache.ScanAssembly (390ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (903ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (675ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 13.07 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 1.14 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (91.5 KB). Loaded Objects now: 4989.
+Memory consumption went from 283.3 MB to 283.2 MB.
+Total: 6.192928 ms (FindLiveObjects: 0.508430 ms CreateObjectMapping: 0.269186 ms MarkObjects: 5.169145 ms  DeleteObjects: 0.244918 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2547.825960 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Left_Tex.png
+  artifactKey: Guid(a165eace3170c4a4486cc07a2cab1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Left_Tex.png using Guid(a165eace3170c4a4486cc07a2cab1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8e9c8e0ed096c94435977f8a1536f7dc') in 0.220424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6
+  artifactKey: Guid(00319f61adf0c9c4c862011784457d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6 using Guid(00319f61adf0c9c4c862011784457d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cc0a6352033859c72f2c304d27779b') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Up_Tex.png
+  artifactKey: Guid(c57633b2b63718e43859f971f00da9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Up_Tex.png using Guid(c57633b2b63718e43859f971f00da9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '6a2536825f223dc293b23b7264e47f2c') in 0.097030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Back_Tex.png
+  artifactKey: Guid(db4f6f83698d9e04db6332fd79383640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Back_Tex.png using Guid(db4f6f83698d9e04db6332fd79383640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c92cee9707402261db47e3f1b667a083') in 0.094135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Right_Tex.png
+  artifactKey: Guid(e6c1cd7db73de0640b5195271e2c731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Right_Tex.png using Guid(e6c1cd7db73de0640b5195271e2c731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '242780306f38c9b7a18d13f4485b1e4c') in 0.071646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/ColorSkies
+  artifactKey: Guid(7eea74fa1bfa44837a5a0dab8000b130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies using Guid(7eea74fa1bfa44837a5a0dab8000b130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39422fca88456f533f604aae5bc2d5b6') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Down_Tex.png
+  artifactKey: Guid(11a7be3583abbfb4887ddf650e44e7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Down_Tex.png using Guid(11a7be3583abbfb4887ddf650e44e7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '719c77dbf90c8e7f56b61ea968c7c2fd') in 0.059497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_6/Front_Tex.png
+  artifactKey: Guid(5fbca3066806bba409147e4ccacbdd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_6/Front_Tex.png using Guid(5fbca3066806bba409147e4ccacbdd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'e9b9cac5f7404dcf5af1942bc7137bf3') in 0.094245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ColorSkies/Textures
+  artifactKey: Guid(a69df2f7be3e8db409b1b980e31b9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures using Guid(a69df2f7be3e8db409b1b980e31b9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a501b7b6ed27689e9fe9fca947f57374') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.741942 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_1
+  artifactKey: Guid(02d92f155025119468642bef17a58497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_1 using Guid(02d92f155025119468642bef17a58497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebdcd4d7cd743d188ebe52905c20749') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.263622 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_1/Back_Tex.png
+  artifactKey: Guid(c1a256d74c3f1704db8572ef683c43cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_1/Back_Tex.png using Guid(c1a256d74c3f1704db8572ef683c43cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '40697336194d1b743644f2698e7e20ab') in 0.074478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_1/Up_Tex.png
+  artifactKey: Guid(f876776fe5b46564a9e42e90b609d367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_1/Up_Tex.png using Guid(f876776fe5b46564a9e42e90b609d367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '019bc21e283c7ee90ef45f9a976bf00f') in 0.088055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_1/Left_Tex.png
+  artifactKey: Guid(b4bbff34d946d3d4b948509b9085ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_1/Left_Tex.png using Guid(b4bbff34d946d3d4b948509b9085ba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b24cbd04a4f69b1a52b1a4ddc9099f32') in 0.097148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.415270 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2
+  artifactKey: Guid(1c391b338f3628d4c833ab82820cb02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2 using Guid(1c391b338f3628d4c833ab82820cb02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb013d9d8a741662bac2510f4ac0ec85') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044602 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png
+  artifactKey: Guid(ccf6463c9748e3641969f0675ca31557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Back_Tex.png using Guid(ccf6463c9748e3641969f0675ca31557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '6012895f78e65b2bae8f2624f149d9ab') in 0.075118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004578 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png
+  artifactKey: Guid(73792e4787969994bb4c97e418591c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Front_Tex.png using Guid(73792e4787969994bb4c97e418591c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b788c24aa7aae2fab82abe56fc461e9d') in 0.085961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png
+  artifactKey: Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_2/Left_Tex.png using Guid(5d49dc08e367f8d469f95ed9b795a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '75a74667a853d62cda2a385ca0699aa7') in 0.101534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.165040 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_3
+  artifactKey: Guid(3688132736f86ab4e9f19e493906d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_3 using Guid(3688132736f86ab4e9f19e493906d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28db4d5a268e5d8117f740be44b3048') in 0.000751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.429376 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_3/Back_Tex.png
+  artifactKey: Guid(e88d0da9f62c13d40904c838a6dd00b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_3/Back_Tex.png using Guid(e88d0da9f62c13d40904c838a6dd00b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'a5663972903ae2ec47e4a72ff3ccdb11') in 0.075766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_3/Front_Tex.png
+  artifactKey: Guid(ff763b7d888f8dc449d241f19294106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_3/Front_Tex.png using Guid(ff763b7d888f8dc449d241f19294106b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '28a301460432c820bf5560e6e8a8c1bc') in 0.072007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003756 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_3/Up_Tex.png
+  artifactKey: Guid(43c6d7f45c9cb0247a1eb2a589bfa4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_3/Up_Tex.png using Guid(43c6d7f45c9cb0247a1eb2a589bfa4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '905a2465b7a526b48780908b34c13551') in 0.072958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.935132 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4
+  artifactKey: Guid(9b1e073ef723e5c4cbbb2022bfc4d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_4 using Guid(9b1e073ef723e5c4cbbb2022bfc4d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6f6d666252d3f0332b39b8c6409aa') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072036 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4/Back_Tex.png
+  artifactKey: Guid(4ce002b4dccc29342862558ba9ea05d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_4/Back_Tex.png using Guid(4ce002b4dccc29342862558ba9ea05d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b0299ffa4793a0cba92c61041a0377d3') in 0.081688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4/Right_Tex.png
+  artifactKey: Guid(dab48f6609da7be4aae65265198dde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_4/Right_Tex.png using Guid(dab48f6609da7be4aae65265198dde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '53e3b70da90f9d0c86901931238e1d07') in 0.071941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004482 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_4/Up_Tex.png
+  artifactKey: Guid(a8416f33edf509944a163c8fe94d24fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_4/Up_Tex.png using Guid(a8416f33edf509944a163c8fe94d24fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c60d1554090c452cbdabb1214e68baba') in 0.095356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.116253 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_5
+  artifactKey: Guid(c51518661c996a74dbe2d1dcf1aea165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_5 using Guid(c51518661c996a74dbe2d1dcf1aea165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3353cbcdd7526fe71934f9e01ddcc50') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.086482 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_5/Back_Tex.png
+  artifactKey: Guid(faa8113ee0b82404d87c52547a10cc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_5/Back_Tex.png using Guid(faa8113ee0b82404d87c52547a10cc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7a0fe6eceaa2ca01d80d1a7c8333c57c') in 0.092640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008746 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_5/Up_Tex.png
+  artifactKey: Guid(d5c5dafb97f2e2e4aa4084c0857fc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_5/Up_Tex.png using Guid(d5c5dafb97f2e2e4aa4084c0857fc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c982ffd2b30e769773975b700ffd2924') in 0.102064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015931 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_5/Left_Tex.png
+  artifactKey: Guid(521ba01b98a34334b97fe8fb50582cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_5/Left_Tex.png using Guid(521ba01b98a34334b97fe8fb50582cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'b3b00522e43ebcf5cb885bb43167513f') in 0.098912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.527313 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_7
+  artifactKey: Guid(57054fa8b88fb70488c19d12602b4231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_7 using Guid(57054fa8b88fb70488c19d12602b4231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18660a3cf8fd4b331e7e217e5845e4f') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039114 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_7/Back_Tex.png
+  artifactKey: Guid(ddd5569091b31ff419682dbdca61c618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_7/Back_Tex.png using Guid(ddd5569091b31ff419682dbdca61c618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '902274d679f5cb13c2a32339dc827f4a') in 0.069920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007358 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_7/Front_Tex.png
+  artifactKey: Guid(b81d91965908a214d848b719c7a9d1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_7/Front_Tex.png using Guid(b81d91965908a214d848b719c7a9d1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '39930fd7e21c323610816cff3c63b228') in 0.070914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_7/Right_Tex.png
+  artifactKey: Guid(dd21d60bd4eed1447a1dc3b3a4e684b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_7/Right_Tex.png using Guid(dd21d60bd4eed1447a1dc3b3a4e684b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '6a750dd3074c099b862308604029cded') in 0.092710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.147193 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8
+  artifactKey: Guid(a3152fec5fb781147915ea9ea4b7faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_8 using Guid(a3152fec5fb781147915ea9ea4b7faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1a443f95834032bf5ebbfd13e91524') in 0.000469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.035228 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8/Back_Tex.png
+  artifactKey: Guid(7f68f02c95f5a3c4e8232a5a2047a717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_8/Back_Tex.png using Guid(7f68f02c95f5a3c4e8232a5a2047a717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '30a0afebc869e04d8461e364c3f58200') in 0.070593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003286 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8/Up_Tex.png
+  artifactKey: Guid(58a9b7b6b89b47e48a9fb6017d34fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_8/Up_Tex.png using Guid(58a9b7b6b89b47e48a9fb6017d34fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '7d26a9f9483e1e7622b71da7a24dcee3') in 0.076174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003243 seconds.
+  path: Assets/ColorSkies/Textures/Skybox_8/Right_Tex.png
+  artifactKey: Guid(29ebee78b691b3d4bb701eb7e8438b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Textures/Skybox_8/Right_Tex.png using Guid(29ebee78b691b3d4bb701eb7e8438b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'aa513a369b413f61a64ae005b014f40d') in 0.071077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.053139 seconds.
+  path: Assets/ColorSkies/Demo
+  artifactKey: Guid(ca1531e5c1b94b148aa5c5b445ba0a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Demo using Guid(ca1531e5c1b94b148aa5c5b445ba0a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f091c5c8e492782dc1aa83bbb763886') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.968841 seconds.
+  path: Assets/ColorSkies/Skies
+  artifactKey: Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies using Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379faa49dcf055aae57e55b1cc94fc5') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039783 seconds.
+  path: Assets/ColorSkies/Skies/Sky_1.mat
+  artifactKey: Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_1.mat using Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '25dd8d7ba6d19d725a165ae669dfde63') in 1.077818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/ColorSkies/Skies/Sky_4.mat
+  artifactKey: Guid(21ae2c17e7f4a4447aea76bbeded97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_4.mat using Guid(21ae2c17e7f4a4447aea76bbeded97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'cc382d380337381fb6c4755ade75dff9') in 0.422364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ColorSkies/Skies/Sky_7.mat
+  artifactKey: Guid(1d3f5254e25764546b2211aa1dd32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_7.mat using Guid(1d3f5254e25764546b2211aa1dd32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '97b4e6826f7dae13252fa33147162ff4') in 0.414844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ColorSkies/Skies/Sky_5.mat
+  artifactKey: Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_5.mat using Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '0178227df252db8ecce221788fa17cea') in 0.443667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.781704 seconds.
+  path: Assets/steam1.asset
+  artifactKey: Guid(ffa32520961b74966a150d13afbad541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/steam1.asset using Guid(ffa32520961b74966a150d13afbad541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6915f2c3396a64673f1f3da66907008') in 0.003312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.131129 seconds.
+  path: Assets/Material/Color.mat
+  artifactKey: Guid(57ca559342b744c3798e353a68ac0a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Color.mat using Guid(57ca559342b744c3798e353a68ac0a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff842126acdca7db6275eb33e7b194') in 0.025515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Material/Sky.mat
+  artifactKey: Guid(844fb4dbcf4d245a1a90f1515c51cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Sky.mat using Guid(844fb4dbcf4d245a1a90f1515c51cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec8ba8fd84cbe46a9a12470353c3ad5') in 0.074433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.873515 seconds.
+  path: Assets/ColorSkies/Skies/Sky_5.mat
+  artifactKey: Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_5.mat using Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '890f98d6de7388aa993bcbe2f7b6b2e1') in 0.328743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
